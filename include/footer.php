@@ -63,12 +63,11 @@
             <div class="inner-footer py-5 text-white">
                 <div class="container">
                     <div class="row gy-4">
-
                         <!-- About Us -->
-                        <div class="col-12 col-md-5">
-                            <h5 class="fw-bold mb-3">About Us</h5>
-                            <p>We are an Industrial–Organisational psychology<br> firm, based out of New Delhi, India. We are <br>consultants who apply psychology principles to <br>the workplace while designing tailor-made B2B<br> people science solutions across industries.</p>
-                            <div class="d-flex gap-3 mt-3 flex-wrap">
+                        <div class="col-12 col-md-4">
+                            <h5 class="fw-bold about-text mb-3">About Us</h5>
+                            <p class="about-dec">We are an Industrial–Organisational psychology<br> firm, based out of New Delhi, India. We are <br>consultants who apply psychology principles to <br>the workplace while designing tailor-made B2B<br> people science solutions across industries.</p>
+                            <div class="d-flex footer-social gap-3 mt-3 flex-wrap">
                                 <a href="#" class="d-flex align-items-center gap-1">
                                     <img src="./assets/image/facebook.png" alt="Facebook" width="18"> Facebook
                                 </a>
@@ -80,44 +79,44 @@
                                 </a>
                             </div>
                         </div>
-
                         <!-- Our Services -->
-                        <div class="col-12 col-md-2">
-                            <h5 class="fw-bold mb-3">Our Services</h5>
-                            <ul class="list-unstyled footer-links">
+                        <div class="col-12 col-md-3">
+                            <h5 class="fw-bold about-text mb-3">Our Services</h5>
+                            <ul class="list-unstyled about-links footer-links">
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Events</a></li>
                                 <li><a href="#">Resources</a></li>
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
-
                         <!-- Contact Us -->
                         <div class="col-12 col-md-5">
-                            <h5 class="fw-bold mb-3">Contact Us</h5>
-                            <div class="d-flex align-items-center mb-2">
+                            <h5 class="fw-bold about-text mb-3">Contact Us</h5>
+                            <div class="d-flex about-contact align-items-center mb-2">
                                 <img src="./assets/image/white-mail.svg" alt="Email" width="20" class="me-2">
                                 <span>contact.friendsquare@gmail.com</span>
                             </div>
-                            <div class="d-flex align-items-center mb-4">
+                            <div class="d-flex .about-contact align-items-center mb-4">
                                 <img src="./assets/image/phone.svg" alt="Phone" width="20" class="me-2">
                                 <span>+91 9643 3509 06</span>
                             </div>
                             <div class="d-flex flex-column flex-sm-row gap-2">
-                                <div class="input-group">
+                                <div class="input-group input-footer">
                                     <span class="input-group-text bg-white border-0">
                                         <img src="./assets/image/mail.svg" alt="Email Icon" width="20">
                                     </span>
                                     <input type="email" class="form-control border-0" placeholder="Your email address">
                                 </div>
-                                <button class="btn btn-light text-dark fw-bold">Get Started</button>
+                                <div>
+                                <button class="btn btn-light footer-button text-dark fw-bold">Get Started</button>
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
                     <!-- Horizontal Line -->
-                    <hr class="mt-5 border-light">
+                    <hr style="height: 5px;" class="mt-5 border-light">
                 </div>
             </div>
 
