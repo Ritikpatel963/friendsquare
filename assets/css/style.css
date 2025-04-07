@@ -1,3 +1,11 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: white;
+}
+
 /* Top header */
 .top-bar {
   background: linear-gradient(to right, #441342, #AA30A5);
@@ -28,7 +36,6 @@
 .top-bar a {
   color: white;
   text-decoration: none;
-  font-family: poppins;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -76,7 +83,7 @@
   color: white;
   font-size: 32px;
   font-weight: 700;
-  font-style: Inter;
+  font-family: "Inter", "Poppins";
 }
 
 .footer-card {
@@ -105,34 +112,6 @@
 
 .fw-bold {
   font-size: 30px;
-  font-family: poppins !important;
-  font-weight: 500 !important;
-}
-
-.about-text, .about-dec {
-  line-height: 175%;
-}
-
-.about-links {
-  line-height: 250%;
-}
-
-.about-contact {
-  line-height: 300%;
-}
-
-.footer-social a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer-button {
-  font-size: 18px;
-  font-family: poppins !important;
-  font-weight: 500 !important;
-  padding: 10px;
-  border-radius: 4px;
-  color: #4b014b;
 }
 
 .footer-card p {
@@ -165,9 +144,137 @@
   vertical-align: middle;
 }
 
-.input-footer {
-  height: 50px;
-  width: 50% !important;
+
+.main_banner {
+  background: url(../image/banner/1.jpg) center center;
+  padding: 350px 45px 50px 45px;
+  background-size: cover;
+}
+
+.main_banner h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 55px;
+  text-shadow: 1px 2px black;
+}
+
+.main_banner .banner_newsletter_container {
+  margin-top: 30px;
+}
+
+.main_banner .banner_newsletter_container.input-group-text {
+  background: #fff;
+}
+
+.main_banner .banner_newsletter_container input {
+  padding: 5px;
+  color: #441342;
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.main_banner .banner_newsletter_container input::placeholder {
+  color: #441342;
+}
+
+.main_banner .banner_newsletter_container button {
+  margin-left: 20px !important;
+  padding: 20px 40px;
+  background: #441342;
+  border: none;
+  border-radius: 0;
+}
+
+.main_banner .banner_newsletter_container button:active,
+.main_banner .banner_newsletter_container button:hover {
+  background: #70206e;
+}
+
+.below_banner {
+  background: linear-gradient(89.94deg, #441342 50.27%, #AA30A5 99.99%);
+  padding: 50px 20px;
+}
+
+.below_banner .below_b_items_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.below_banner .below_b_items_container .below_b_item span {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.below_banner .below_b_items_container .below_b_item {
+  position: relative;
+  border-right: 1px solid white;
+  padding: 10px 120px;
+}
+
+.below_banner .below_b_items_container .below_b_item:last-child {
+  position: relative;
+  border: none;
+  padding: auto;
+}
+
+.our_services_section {
+  padding: 100px;
+}
+
+.our_services_section h2 {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our_services_section .services_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.our_services_section .services_container .service_box {
+  background-color: white;
+  box-shadow: 0 0 10px 0 #0000001a;
+  width: 24%;
+  border-radius: 20px;
+}
+
+.our_services_section .services_container .service_box .service_img,
+.our_services_section .services_container .service_box .service_content {
+  padding: 15px;
+}
+
+.our_services_section .services_container .service_box .service_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.our_services_section .services_container .service_box .service_content p {
+  margin-top: 10px;
+  color: #616161;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.our_services_section .services_container .service_box .service_read_more button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #441342 0%, #AA30A5 100%);
+  border-radius: 0 0 10px 10px;
+  height: 100%;
+  color: white;
+  border: none;
+  transition: background 0.4s ease, transform 0.3s ease;
+}
+
+.our_services_section .services_container .service_box .service_read_more button:hover {
+  background: linear-gradient(90deg, #571855 0%, #c538c0 100%);
+  transform: translateY(-2px);
 }
 
 /*  */
@@ -191,10 +298,5 @@
 
   .fw-bold {
     font-size: 20px;
-  }
-
-  .input-footer {
-    width: 70% !important;
-
   }
 }
