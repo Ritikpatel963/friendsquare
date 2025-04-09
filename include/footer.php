@@ -124,7 +124,42 @@
         </div>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SwiperJS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.mySwiper', {
+        slidesPerView: 3,
+        spaceBetween: 40,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true
+    });
+
+
+    var swiper2 = new Swiper(".mySwiperOrgs", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 4,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            }
+        }
+    });
+</script>
 </body>
 
 </html>
