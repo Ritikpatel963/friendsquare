@@ -8,6 +8,10 @@ body {
   background: white;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* Top header */
 .top-bar {
   background: linear-gradient(to right, #441342, #AA30A5);
@@ -621,6 +625,122 @@ body {
   font-size: 16px;
 }
 
+.main_heading {
+  background: #44134214;
+  padding: 8px 15px;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+.main_heading h3 {
+  text-transform: uppercase;
+  color: #441342;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.content_box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+}
+
+.about_timeline_heading h3 {
+  color: #441342;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about_timeline_heading h4 {
+  color: #441342;
+  font-weight: 600;
+}
+
+.timeline {
+  position: relative;
+  margin: 3rem auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #912a8f;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #912a8f;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.timeline-content {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-year {
+  display: inline-block;
+  background-color: #5b0d68;
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.timeline-image {
+  width: 100%;
+  height: 160px;
+  background-color: #ccc;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.row:nth-child(even) .timeline-text {
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timeline-dot {
+    left: 8px;
+  }
+
+  .row {
+    flex-direction: column !important;
+  }
+
+  .timeline-text,
+  .timeline-img {
+    order: unset !important;
+    text-align: left !important;
+  }
+}
 
 @media (max-width: 768px) {
 
