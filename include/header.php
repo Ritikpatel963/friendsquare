@@ -47,10 +47,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link header-links mx-2" href="#!">Home</a>
+                    <a class="nav-link header-links mx-2" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link header-links mx-2" href="#!">About us</a>
+                    <a class="nav-link header-links mx-2" href="about-us.php">About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link header-links mx-2" href="#!">Service</a>
