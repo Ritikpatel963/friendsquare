@@ -276,9 +276,62 @@ body {
   background: linear-gradient(90deg, #571855 0%, #c538c0 100%);
   transform: translateY(-2px);
 }
+/* service page */
+.service-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-bottom-box {
+  position: absolute;
+  bottom: -50px; /* Half out of the image */
+  left: 50%;
+  transform: translateX(-100%);
+  background-color: #441342;
+  color: white;
+  padding: 1.5rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.banner-bottom-box h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.banner-bottom-box p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+.banner-section{
+  background-image: url('../image/Title box.svg');
+}
+
+@media (min-width: 768px) {
+  .banner-bottom-box {
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .banner-bottom-box h2 {
+    font-size: 1.8rem;
+  }
+
+  .banner-bottom-box p {
+    font-size: 1.1rem;
+  }
+}
 
 /*  */
-/* Mobile Responsive Css */
 /* Top Header */
 @media (max-width: 576px) {
   .top-bar {
