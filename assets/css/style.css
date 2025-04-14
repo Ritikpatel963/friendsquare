@@ -8,8 +8,7 @@ body {
   background: white;
 }
 
-section {
-}
+section {}
 
 /* Top header */
 .top-bar {
@@ -281,6 +280,7 @@ section {
   background: linear-gradient(90deg, #571855 0%, #c538c0 100%);
   transform: translateY(-2px);
 }
+
 /* service page */
 .training-card {
   padding-left: 110px !important;
@@ -316,6 +316,39 @@ section {
     font-size: 1.25rem;
   }
 }
+
+/*  */
+/* section page cards  */
+.soft-skills-section {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem 1rem;
+}
+
+.soft-skills-heading {
+  font-weight: 600;
+  font-size: 30px;
+  color: #4b145b;
+}
+
+.soft-skills-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #333;
+  line-height: 2.1;
+}
+
+.soft-skills-img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.soft-skill-right{
+  padding-left: 50px;
+}
+
+
+
 /*  */
 
 .home_testimonials .testimonial_heading {
